@@ -37,7 +37,7 @@
     <!-- 1. ヘッダー (Header) -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 transition-all">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-20">
+            <div class="flex justify-between items-center h-16">
                 <!-- 会社ロゴ -->
                 <a href="#" class="flex items-center gap-3 group">
                     <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-600 to-indigo-700 flex items-center justify-center text-white font-bold text-xl shadow-md group-hover:shadow-lg transition">
@@ -50,12 +50,12 @@
                 </a>
 
                 <!-- デスクトップ用ナビゲーション -->
-                <nav class="hidden md:flex items-center space-x-8">
+                <nav class="hidden md:flex items-center space-x-6">
                     <a href="#services" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition">事業内容</a>
                     <a href="#company" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition">会社概要</a>
                     <a href="#news" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition">お知らせ</a>
                     <a href="#recruit" onclick="showToast('採用情報ページは現在テスト環境のため準備中です。')" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition cursor-pointer">採用情報</a>
-                    <a href="#contact" class="inline-flex items-center justify-center px-5 py-2.5 text-sm font-bold text-white bg-brand-600 rounded-lg hover:bg-brand-700 shadow-sm hover:shadow transition">
+                    <a href="#contact" class="inline-flex items-center justify-center px-4 py-2 text-sm font-bold text-white bg-brand-600 rounded-lg hover:bg-brand-700 shadow-sm hover:shadow transition">
                         お問い合わせ
                     </a>
                 </nav>
@@ -75,13 +75,13 @@
         </div>
 
         <!-- モバイル用ドロップダウンメニュー -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-2 shadow-lg">
-            <a href="#services" class="mobile-link block px-3 py-3 rounded-lg text-base font-medium text-slate-700 hover:text-brand-600 hover:bg-slate-50">事業内容</a>
-            <a href="#company" class="mobile-link block px-3 py-3 rounded-lg text-base font-medium text-slate-700 hover:text-brand-600 hover:bg-slate-50">会社概要</a>
-            <a href="#news" class="mobile-link block px-3 py-3 rounded-lg text-base font-medium text-slate-700 hover:text-brand-600 hover:bg-slate-50">お知らせ</a>
-            <a href="#recruit" onclick="showToast('採用情報ページは現在テスト環境のため準備中です。')" class="mobile-link block px-3 py-3 rounded-lg text-base font-medium text-slate-700 hover:text-brand-600 hover:bg-slate-50">採用情報</a>
-            <div class="pt-2">
-                <a href="#contact" class="mobile-link block w-full text-center px-4 py-3 rounded-lg text-base font-bold text-white bg-brand-600 hover:bg-brand-700 shadow">
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-4 space-y-1.5 shadow-lg">
+            <a href="#services" class="mobile-link block px-3 py-2.5 rounded-lg text-base font-medium text-slate-700 hover:text-brand-600 hover:bg-slate-50">事業内容</a>
+            <a href="#company" class="mobile-link block px-3 py-2.5 rounded-lg text-base font-medium text-slate-700 hover:text-brand-600 hover:bg-slate-50">会社概要</a>
+            <a href="#news" class="mobile-link block px-3 py-2.5 rounded-lg text-base font-medium text-slate-700 hover:text-brand-600 hover:bg-slate-50">お知らせ</a>
+            <a href="#recruit" onclick="showToast('採用情報ページは現在テスト環境のため準備中です。')" class="mobile-link block px-3 py-2.5 rounded-lg text-base font-medium text-slate-700 hover:text-brand-600 hover:bg-slate-50">採用情報</a>
+            <div class="pt-1.5">
+                <a href="#contact" class="mobile-link block w-full text-center px-4 py-2.5 rounded-lg text-base font-bold text-white bg-brand-600 hover:bg-brand-700 shadow">
                     お問い合わせ
                 </a>
             </div>
@@ -105,9 +105,9 @@
         ></div>
 
         <!-- タイトルと説明文（写真内の下部に配置） -->
-        <div class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 sm:pb-14 lg:pb-16 pt-32">
+        <div class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 sm:pb-11 lg:pb-12 pt-24">
             <div class="max-w-3xl">
-                <h1 class="text-2xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-tight mb-4 drop-shadow-sm">
+                <h1 class="text-2xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-tight mb-3 drop-shadow-sm">
                     テクノロジーの力で、<br class="hidden sm:inline">ビジネスの未来を共創する。
                 </h1>
                 <p class="text-sm sm:text-base lg:text-lg text-slate-100 leading-relaxed max-w-2xl drop-shadow-sm">
@@ -118,14 +118,14 @@
     </section>
 
     <!-- 3. お知らせセクション (News Section) -->
-    <section id="news" class="py-16 sm:py-24 bg-white border-b border-slate-200">
+    <section id="news" class="py-12 sm:py-20 bg-white border-b border-slate-200">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-10">
+            <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-8">
                 <div>
                     <span class="text-brand-600 font-bold text-sm tracking-widest uppercase">NEWS</span>
                     <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1">お知らせ</h2>
                 </div>
-                <a href="#news" onclick="showToast('お知らせ一覧は現在すべて表示されています。')" class="mt-4 sm:mt-0 inline-flex items-center text-sm font-semibold text-brand-600 hover:text-brand-700">
+                <a href="#news" onclick="showToast('お知らせ一覧は現在すべて表示されています。')" class="mt-3 sm:mt-0 inline-flex items-center text-sm font-semibold text-brand-600 hover:text-brand-700">
                     一覧を見る
                     <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -135,7 +135,7 @@
 
             <div class="divide-y divide-slate-200 border-t border-b border-slate-200">
                 <!-- ニュース項目 1 -->
-                <article class="py-5 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 hover:bg-slate-50 px-3 rounded-lg transition">
+                <article class="py-4 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-5 hover:bg-slate-50 px-3 rounded-lg transition">
                     <div class="flex items-center gap-4 shrink-0">
                         <time datetime="2026-11-10" class="text-sm text-slate-500 font-mono">2026.11.10</time>
                         <span class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-semibold bg-brand-100 text-brand-700">
@@ -148,7 +148,7 @@
                 </article>
 
                 <!-- ニュース項目 2 -->
-                <article class="py-5 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 hover:bg-slate-50 px-3 rounded-lg transition">
+                <article class="py-4 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-5 hover:bg-slate-50 px-3 rounded-lg transition">
                     <div class="flex items-center gap-4 shrink-0">
                         <time datetime="2026-10-24" class="text-sm text-slate-500 font-mono">2026.10.24</time>
                         <span class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-semibold bg-emerald-100 text-emerald-700">
@@ -161,7 +161,7 @@
                 </article>
 
                 <!-- ニュース項目 3 -->
-                <article class="py-5 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 hover:bg-slate-50 px-3 rounded-lg transition">
+                <article class="py-4 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-5 hover:bg-slate-50 px-3 rounded-lg transition">
                     <div class="flex items-center gap-4 shrink-0">
                         <time datetime="2026-09-15" class="text-sm text-slate-500 font-mono">2026.09.15</time>
                         <span class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-semibold bg-slate-200 text-slate-700">
@@ -174,7 +174,7 @@
                 </article>
 
                 <!-- ニュース項目 4 -->
-                <article class="py-5 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 hover:bg-slate-50 px-3 rounded-lg transition">
+                <article class="py-4 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-5 hover:bg-slate-50 px-3 rounded-lg transition">
                     <div class="flex items-center gap-4 shrink-0">
                         <time datetime="2026-08-01" class="text-sm text-slate-500 font-mono">2026.08.01</time>
                         <span class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-semibold bg-amber-100 text-amber-800">
@@ -190,18 +190,18 @@
     </section>
 
     <!-- 4. 事業内容セクション (Services Section) -->
-    <section id="services" class="py-20 sm:py-28 bg-slate-50">
+    <section id="services" class="py-16 sm:py-20 bg-slate-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-2xl mx-auto mb-16">
+            <div class="text-center max-w-2xl mx-auto mb-12">
                 <span class="text-brand-600 font-bold text-sm tracking-widest uppercase">SERVICES</span>
                 <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mt-2">事業内容</h2>
-                <p class="mt-4 text-slate-600">
+                <p class="mt-3 text-slate-600">
                     お客様の経営課題に寄り添い、企画立案からシステム構築、運用保守までワンストップで最適なソリューションをご提供します。
                 </p>
             </div>
 
             <!-- 3カラムカードレイアウト -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <!-- カード 1: システム開発 -->
                 <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col">
                     <div class="w-full h-48 overflow-hidden bg-slate-100">
@@ -212,17 +212,17 @@
                             class="w-full h-48 object-cover"
                         />
                     </div>
-                    <div class="p-8 flex flex-col flex-grow">
-                        <div class="w-14 h-14 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center mb-6">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="w-14 h-14 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center mb-4">
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">受託システム・Web開発</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed mb-6 flex-grow">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2.5">受託システム・Web開発</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4 flex-grow">
                             業務基幹システムから顧客向けWebアプリケーション、モバイルアプリまで、最新フレームワークを用いた高品質・高セキュリティなシステム開発を行います。
                         </p>
-                        <ul class="space-y-2 text-xs font-medium text-slate-500 border-t border-slate-100 pt-4">
+                        <ul class="space-y-1.5 text-xs font-medium text-slate-500 border-t border-slate-100 pt-3">
                             <li class="flex items-center gap-2">
                                 <span class="w-1.5 h-1.5 rounded-full bg-brand-600"></span>業務効率化Webシステム構築
                             </li>
@@ -243,17 +243,17 @@
                             class="w-full h-48 object-cover"
                         />
                     </div>
-                    <div class="p-8 flex flex-col flex-grow">
-                        <div class="w-14 h-14 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center mb-6">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="w-14 h-14 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center mb-4">
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">IT・DXコンサルティング</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed mb-6 flex-grow">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2.5">IT・DXコンサルティング</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4 flex-grow">
                             現状の業務フローを可視化し、ボトルネックの特定からIT投資計画の策定、社内DX推進体制の構築まで、伴走型でサポートいたします。
                         </p>
-                        <ul class="space-y-2 text-xs font-medium text-slate-500 border-t border-slate-100 pt-4">
+                        <ul class="space-y-1.5 text-xs font-medium text-slate-500 border-t border-slate-100 pt-3">
                             <li class="flex items-center gap-2">
                                 <span class="w-1.5 h-1.5 rounded-full bg-indigo-600"></span>業務プロセス改善（BPR）支援
                             </li>
@@ -274,17 +274,17 @@
                             class="w-full h-48 object-cover"
                         />
                     </div>
-                    <div class="p-8 flex flex-col flex-grow">
-                        <div class="w-14 h-14 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center mb-6">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="w-14 h-14 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center mb-4">
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-3">クラウド導入・インフラ構築</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed mb-6 flex-grow">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2.5">クラウド導入・インフラ構築</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4 flex-grow">
                             AWSやGoogle Cloudなどの主要クラウド環境への移行設計から、テレワーク環境の整備、ゼロトラストセキュリティ対策まで一貫して対応します。
                         </p>
-                        <ul class="space-y-2 text-xs font-medium text-slate-500 border-t border-slate-100 pt-4">
+                        <ul class="space-y-1.5 text-xs font-medium text-slate-500 border-t border-slate-100 pt-3">
                             <li class="flex items-center gap-2">
                                 <span class="w-1.5 h-1.5 rounded-full bg-sky-600"></span>オンプレミスからのクラウド移行
                             </li>
@@ -299,9 +299,9 @@
     </section>
 
     <!-- 5. 会社概要セクション (Company Section) -->
-    <section id="company" class="py-20 sm:py-28 bg-white border-t border-slate-200">
+    <section id="company" class="py-16 sm:py-20 bg-white border-t border-slate-200">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-14">
+            <div class="text-center mb-11">
                 <span class="text-brand-600 font-bold text-sm tracking-widest uppercase">COMPANY</span>
                 <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mt-2">会社概要</h2>
             </div>
@@ -310,43 +310,43 @@
                 <table class="w-full text-left border-collapse">
                     <tbody class="divide-y divide-slate-200 text-sm sm:text-base">
                         <tr class="flex flex-col sm:table-row">
-                            <th class="py-4 px-6 bg-slate-50 font-semibold text-slate-700 sm:w-1/3">会社名</th>
-                            <td class="py-4 px-6 text-slate-800">株式会社テストソリューションズ（Test Solutions Inc.）</td>
+                            <th class="py-3 px-5 bg-slate-50 font-semibold text-slate-700 sm:w-1/3">会社名</th>
+                            <td class="py-3 px-5 text-slate-800">株式会社テストソリューションズ（Test Solutions Inc.）</td>
                         </tr>
                         <tr class="flex flex-col sm:table-row">
-                            <th class="py-4 px-6 bg-slate-50 font-semibold text-slate-700">設立</th>
-                            <td class="py-4 px-6 text-slate-800">2018年4月1日</td>
+                            <th class="py-3 px-5 bg-slate-50 font-semibold text-slate-700">設立</th>
+                            <td class="py-3 px-5 text-slate-800">2018年4月1日</td>
                         </tr>
                         <tr class="flex flex-col sm:table-row">
-                            <th class="py-4 px-6 bg-slate-50 font-semibold text-slate-700">代表取締役</th>
-                            <td class="py-4 px-6 text-slate-800">山田 太郎</td>
+                            <th class="py-3 px-5 bg-slate-50 font-semibold text-slate-700">代表取締役</th>
+                            <td class="py-3 px-5 text-slate-800">山田 太郎</td>
                         </tr>
                         <tr class="flex flex-col sm:table-row">
-                            <th class="py-4 px-6 bg-slate-50 font-semibold text-slate-700">資本金</th>
-                            <td class="py-4 px-6 text-slate-800">3,000万円</td>
+                            <th class="py-3 px-5 bg-slate-50 font-semibold text-slate-700">資本金</th>
+                            <td class="py-3 px-5 text-slate-800">3,000万円</td>
                         </tr>
                         <tr class="flex flex-col sm:table-row">
-                            <th class="py-4 px-6 bg-slate-50 font-semibold text-slate-700">従業員数</th>
-                            <td class="py-4 px-6 text-slate-800">45名（2026年10月現在・業務委託含む）</td>
+                            <th class="py-3 px-5 bg-slate-50 font-semibold text-slate-700">従業員数</th>
+                            <td class="py-3 px-5 text-slate-800">45名（2026年10月現在・業務委託含む）</td>
                         </tr>
                         <tr class="flex flex-col sm:table-row">
-                            <th class="py-4 px-6 bg-slate-50 font-semibold text-slate-700">所在地</th>
-                            <td class="py-4 px-6 text-slate-800">
+                            <th class="py-3 px-5 bg-slate-50 font-semibold text-slate-700">所在地</th>
+                            <td class="py-3 px-5 text-slate-800">
                                 〒220-0012<br>
                                 神奈川県横浜市西区みなとみらい2-2-1 テストタワー 15F
                             </td>
                         </tr>
                         <tr class="flex flex-col sm:table-row">
-                            <th class="py-4 px-6 bg-slate-50 font-semibold text-slate-700">事業内容</th>
-                            <td class="py-4 px-6 text-slate-800 leading-relaxed">
+                            <th class="py-3 px-5 bg-slate-50 font-semibold text-slate-700">事業内容</th>
+                            <td class="py-3 px-5 text-slate-800 leading-relaxed">
                                 1. 企業のDX推進に関するITコンサルティング業務<br>
                                 2. Webシステムおよび業務アプリケーションの企画・設計・開発<br>
                                 3. クラウドインフラの導入支援および運用保守業務
                             </td>
                         </tr>
                         <tr class="flex flex-col sm:table-row">
-                            <th class="py-4 px-6 bg-slate-50 font-semibold text-slate-700">認証・資格</th>
-                            <td class="py-4 px-6 text-slate-800">プライバシーマーク認定取得 / ISO/IEC 27001 (ISMS) 認証取得</td>
+                            <th class="py-3 px-5 bg-slate-50 font-semibold text-slate-700">認証・資格</th>
+                            <td class="py-3 px-5 text-slate-800">プライバシーマーク認定取得 / ISO/IEC 27001 (ISMS) 認証取得</td>
                         </tr>
                     </tbody>
                 </table>
@@ -355,19 +355,19 @@
     </section>
 
     <!-- 6. お問い合わせセクション (Contact Section) -->
-    <section id="contact" class="py-20 sm:py-28 bg-slate-100 border-t border-slate-200">
+    <section id="contact" class="py-16 sm:py-20 bg-slate-100 border-t border-slate-200">
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
+            <div class="text-center mb-10">
                 <span class="text-brand-600 font-bold text-sm tracking-widest uppercase">CONTACT</span>
                 <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mt-2">お問い合わせ</h2>
-                <p class="mt-4 text-slate-600 text-sm sm:text-base">
+                <p class="mt-3 text-slate-600 text-sm sm:text-base">
                     システム開発のご相談、お見積もりのご依頼など、お気軽にお問い合わせください。<br class="hidden sm:inline">通常1〜2営業日以内に担当者よりご連絡いたします。
                 </p>
             </div>
 
-            <div class="bg-white rounded-2xl shadow-md border border-slate-200 p-6 sm:p-10">
+            <div class="bg-white rounded-2xl shadow-md border border-slate-200 p-5 sm:p-8">
                 <!-- 送信完了メッセージ表示エリア（初期は非表示） -->
-                <div id="form-success-banner" class="hidden mb-8 p-5 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800">
+                <div id="form-success-banner" class="hidden mb-6 p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800">
                     <div class="flex items-start gap-3">
                         <svg class="w-6 h-6 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -379,32 +379,32 @@
                     </div>
                 </div>
 
-                <form id="contact-form" class="space-y-6">
+                <form id="contact-form" class="space-y-5">
                     <!-- お名前 -->
                     <div>
-                        <label for="name" class="block text-sm font-bold text-slate-700 mb-2">
+                        <label for="name" class="block text-sm font-bold text-slate-700 mb-1.5">
                             お名前 <span class="ml-1.5 px-2 py-0.5 text-[11px] font-semibold bg-rose-100 text-rose-700 rounded">必須</span>
                         </label>
                         <input type="text" id="name" name="name" required placeholder="例：山田 花子"
-                            class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-brand-600 focus:ring-2 focus:ring-brand-500/20 outline-none transition text-slate-800 bg-slate-50 focus:bg-white">
+                            class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-brand-600 focus:ring-2 focus:ring-brand-500/20 outline-none transition text-slate-800 bg-slate-50 focus:bg-white">
                     </div>
 
                     <!-- メールアドレス -->
                     <div>
-                        <label for="email" class="block text-sm font-bold text-slate-700 mb-2">
+                        <label for="email" class="block text-sm font-bold text-slate-700 mb-1.5">
                             メールアドレス <span class="ml-1.5 px-2 py-0.5 text-[11px] font-semibold bg-rose-100 text-rose-700 rounded">必須</span>
                         </label>
                         <input type="email" id="email" name="email" required placeholder="例：hanako.yamada@example.co.jp"
-                            class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-brand-600 focus:ring-2 focus:ring-brand-500/20 outline-none transition text-slate-800 bg-slate-50 focus:bg-white">
+                            class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-brand-600 focus:ring-2 focus:ring-brand-500/20 outline-none transition text-slate-800 bg-slate-50 focus:bg-white">
                     </div>
 
                     <!-- お問い合わせ種別 -->
                     <div>
-                        <label for="category" class="block text-sm font-bold text-slate-700 mb-2">
+                        <label for="category" class="block text-sm font-bold text-slate-700 mb-1.5">
                             お問い合わせ種別 <span class="ml-1.5 px-2 py-0.5 text-[11px] font-semibold bg-rose-100 text-rose-700 rounded">必須</span>
                         </label>
                         <select id="category" name="category" required
-                            class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-brand-600 focus:ring-2 focus:ring-brand-500/20 outline-none transition text-slate-800 bg-slate-50 focus:bg-white">
+                            class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-brand-600 focus:ring-2 focus:ring-brand-500/20 outline-none transition text-slate-800 bg-slate-50 focus:bg-white">
                             <option value="">選択してください</option>
                             <option value="システム開発について">受託システム・Web開発について</option>
                             <option value="ITコンサルティングについて">IT・DXコンサルティングについて</option>
@@ -415,17 +415,17 @@
 
                     <!-- お問い合わせ内容 -->
                     <div>
-                        <label for="message" class="block text-sm font-bold text-slate-700 mb-2">
+                        <label for="message" class="block text-sm font-bold text-slate-700 mb-1.5">
                             お問い合わせ内容 <span class="ml-1.5 px-2 py-0.5 text-[11px] font-semibold bg-rose-100 text-rose-700 rounded">必須</span>
                         </label>
                         <textarea id="message" name="message" rows="5" required placeholder="ご相談内容やご希望の納期などをご記入ください。"
-                            class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-brand-600 focus:ring-2 focus:ring-brand-500/20 outline-none transition text-slate-800 bg-slate-50 focus:bg-white"></textarea>
+                            class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-brand-600 focus:ring-2 focus:ring-brand-500/20 outline-none transition text-slate-800 bg-slate-50 focus:bg-white"></textarea>
                     </div>
 
                     <!-- 送信ボタン -->
-                    <div class="pt-2">
+                    <div class="pt-1">
                         <button type="submit"
-                            class="w-full py-4 px-6 bg-brand-600 hover:bg-brand-700 text-white font-bold text-base rounded-xl shadow-md hover:shadow-lg transition duration-200 flex items-center justify-center gap-2">
+                            class="w-full py-3 px-5 bg-brand-600 hover:bg-brand-700 text-white font-bold text-base rounded-xl shadow-md hover:shadow-lg transition duration-200 flex items-center justify-center gap-2">
                             <span>この内容で送信する</span>
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
@@ -438,12 +438,12 @@
     </section>
 
     <!-- 7. フッター (Footer) -->
-    <footer class="bg-slate-900 text-slate-400 py-14">
+    <footer class="bg-slate-900 text-slate-400 py-11">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 pb-10 border-b border-slate-800">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 pb-8 border-b border-slate-800">
                 <!-- 会社情報 -->
                 <div>
-                    <div class="flex items-center gap-3 text-white mb-3">
+                    <div class="flex items-center gap-3 text-white mb-2.5">
                         <div class="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center font-bold text-sm">TS</div>
                         <span class="text-lg font-bold tracking-tight">株式会社テストソリューションズ</span>
                     </div>
@@ -453,7 +453,7 @@
                 </div>
 
                 <!-- フッターリンク -->
-                <div class="flex flex-wrap gap-6 text-sm">
+                <div class="flex flex-wrap gap-5 text-sm">
                     <a href="#services" class="hover:text-white transition">事業内容</a>
                     <a href="#company" class="hover:text-white transition">会社概要</a>
                     <a href="#news" class="hover:text-white transition">お知らせ</a>
@@ -462,7 +462,7 @@
                 </div>
             </div>
 
-            <div class="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
+            <div class="pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-slate-500">
                 <p>&copy; 2026 Test Solutions Inc. All Rights Reserved.</p>
                 <p>※このWebサイトはテスト用に作成された架空のコーポレートサイトです。</p>
             </div>
